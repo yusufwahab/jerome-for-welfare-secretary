@@ -3,6 +3,8 @@ import { Container } from "../components/shared/Container";
 import { RevealOnScroll } from "../components/shared/RevealOnScroll";
 import { ContactForm } from "../components/contact/ContactForm";
 
+const CAMPAIGN_WHATSAPP_URL = "https://chat.whatsapp.com/FP09Vera8878fCpEttfw5b?mode=gi_t";
+
 const SOCIALS = [
   {
     href: "https://www.instagram.com/thejeromejoseph?igsh=MXNwbG90dTlkaGtkeQ%3D%3D&utm_source=qr",
@@ -10,7 +12,7 @@ const SOCIALS = [
     Icon: Camera,
   },
   { href: "https://www.linkedin.com/in/thejeromejoseph", label: "LinkedIn", Icon: Briefcase },
-  { href: "https://wa.me", label: "WhatsApp", Icon: MessageCircle },
+  { href: CAMPAIGN_WHATSAPP_URL, label: "WhatsApp", Icon: MessageCircle },
 ];
 
 export function Contact() {
@@ -27,7 +29,19 @@ export function Contact() {
             </p>
           </RevealOnScroll>
 
-          <RevealOnScroll delay={100} className="mt-10 flex gap-4">
+          <RevealOnScroll delay={50} className="mt-8">
+            <a
+              href={CAMPAIGN_WHATSAPP_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex min-h-11 items-center gap-2 rounded-full bg-accent px-6 text-sm font-medium text-paper transition-colors hover:bg-ink"
+            >
+              <MessageCircle size={16} />
+              Join the Campaign WhatsApp Group
+            </a>
+          </RevealOnScroll>
+
+          <RevealOnScroll delay={100} className="mt-6 flex gap-4">
             {SOCIALS.map(({ href, label, Icon }) => (
               <a
                 key={label}

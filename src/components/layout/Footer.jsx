@@ -20,7 +20,7 @@ const SOCIALS = [
     Icon: Camera,
   },
   { href: "https://www.linkedin.com/in/thejeromejoseph", label: "LinkedIn", Icon: Briefcase },
-  { href: "https://wa.me", label: "WhatsApp", Icon: MessageCircle },
+  { href: "https://chat.whatsapp.com/FP09Vera8878fCpEttfw5b?mode=gi_t", label: "WhatsApp", Icon: MessageCircle },
 ];
 
 export function Footer() {
