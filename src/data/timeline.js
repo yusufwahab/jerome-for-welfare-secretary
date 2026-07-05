@@ -7,14 +7,14 @@ import researchTeam from "../assets/research-team.jpg";
 export const timeline = [
   {
     id: "unilag",
-    year: "2021 — Present",
+    year: "2024 — Present",
     role: "Engineering Student, UNILAG",
     image: null,
     body: "Studying Metallurgical and Materials Engineering at the University of Lagos — the technical foundation underneath everything else he builds.",
   },
   {
     id: "hospitality",
-    year: "2021 — 2024",
+    year: "2023 — Present",
     role: "Hospitality Leadership",
     image: hospitalityRole,
     alt: "Jerome in a reception/dining setting during his hospitality leadership role",
@@ -50,7 +50,7 @@ export const timeline = [
   },
   {
     id: "research",
-    year: "2025",
+    year: "2026",
     role: "Researcher, Raw Materials Diplomacy",
     image: researchTeam,
     alt: "Jerome with the Raw Materials Diplomacy research team",

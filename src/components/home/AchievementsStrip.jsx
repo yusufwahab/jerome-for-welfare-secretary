@@ -10,8 +10,10 @@ const FEATURED_IDS = ["award-2024", "award-2025", "weightless-collection", "clas
 const featured = achievements.filter((a) => FEATURED_IDS.includes(a.id));
 
 export function AchievementsStrip() {
-  const trackRef = useRef(null);
+  const containerRef = useRef(null);
   const reducedMotion = useReducedMotion();
+  const isTouch = typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches;
+  const dragEnabled = !reducedMotion && !isTouch;
 
   return (
     <section className="py-24">
@@ -22,12 +24,11 @@ export function AchievementsStrip() {
         </RevealOnScroll>
       </Container>
 
-      <div className="overflow-hidden pl-6 md:pl-16">
+      <div ref={containerRef} className="overflow-hidden pl-6 md:pl-16">
         <motion.div
-          ref={trackRef}
           className="no-scrollbar flex gap-5 overflow-x-auto pb-4 pr-6 md:pr-16"
-          drag={reducedMotion ? false : "x"}
-          dragConstraints={trackRef}
+          drag={dragEnabled ? "x" : false}
+          dragConstraints={containerRef}
           dragElastic={0.1}
         >
           {featured.map((item) => (

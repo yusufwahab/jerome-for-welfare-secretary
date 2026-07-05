@@ -4,8 +4,12 @@ import { RevealOnScroll } from "../components/shared/RevealOnScroll";
 import { ContactForm } from "../components/contact/ContactForm";
 
 const SOCIALS = [
-  { href: "https://instagram.com", label: "Instagram", Icon: Camera },
-  { href: "https://linkedin.com", label: "LinkedIn", Icon: Briefcase },
+  {
+    href: "https://www.instagram.com/thejeromejoseph?igsh=MXNwbG90dTlkaGtkeQ%3D%3D&utm_source=qr",
+    label: "Instagram",
+    Icon: Camera,
+  },
+  { href: "https://www.linkedin.com/in/thejeromejoseph", label: "LinkedIn", Icon: Briefcase },
   { href: "https://wa.me", label: "WhatsApp", Icon: MessageCircle },
 ];
 
