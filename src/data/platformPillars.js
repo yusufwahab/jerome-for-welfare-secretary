@@ -16,17 +16,17 @@ const IMAGES = {
   },
   responsiveness: {
     image: csWeek2024,
-    alt: "Recognition ceremony during Customer Service Week 2024",
+    alt: "Jerome working with teammates on laptops during the 234 AI Hackathon build phase",
     imageNote: "Recognized for how fast — and how well — he responded to people.",
   },
   transparency: {
     image: researchTeam,
-    alt: "Jerome with the Raw Materials Diplomacy research team",
+    alt: "The Classence logo",
     imageNote: "Research demands showing your work — welfare should too.",
   },
   practical: {
     image: classence,
-    alt: "Jerome at work as Business Lead for Classence",
+    alt: "The Classence logo",
     imageNote: "Running real operations, where support has to actually land.",
   },
 };
