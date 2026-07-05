@@ -17,7 +17,7 @@ export const timeline = [
     year: "2021 — 2024",
     role: "Hospitality Leadership",
     image: hospitalityRole,
-    alt: "Professional portrait of Ofuowoicho Jerome Joseph",
+    alt: "Jerome in a reception/dining setting during his hospitality leadership role",
     body: "Three years managing customer engagement across four residential properties, two spas, a gym, and a restaurant — handling 4,000+ interactions and contributing to a 63% year-on-year increase in engagement. Twice won the organization's Customer Service Award (2024, 2025) and recognized during Customer Service Week 2024.",
     pullNumbers: [
       { value: "4,000+", label: "interactions handled" },
@@ -37,7 +37,7 @@ export const timeline = [
     year: "2023 — Present",
     role: "Financial Analyst (Volunteer), UNILAG Energy Club",
     image: energyClub,
-    alt: "Jerome with the UNILAG Energy Club team",
+    alt: "Jerome holding the winner's cheque at the 234 AI Hackathon & Commerce Fusion 2026",
     body: "Volunteering his financial analysis skills to support the Energy Club's initiatives — governance and numbers in service of a student community.",
   },
   {

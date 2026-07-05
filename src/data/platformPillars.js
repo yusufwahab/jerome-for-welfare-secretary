@@ -11,7 +11,7 @@ import { pillars } from "./pillars";
 const IMAGES = {
   accessibility: {
     image: hospitalityRole,
-    alt: "Professional portrait of Ofuowoicho Jerome Joseph",
+    alt: "Jerome in a reception/dining setting during his hospitality leadership role",
     imageNote: "Three years making service easy to reach, for thousands of guests.",
   },
   responsiveness: {

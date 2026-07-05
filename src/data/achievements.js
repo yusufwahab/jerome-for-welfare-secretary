@@ -90,7 +90,7 @@ export const achievements = [
     title: "UNILAG Energy Club",
     category: "Leadership",
     image: energyClub,
-    alt: "Jerome with the UNILAG Energy Club team",
+    alt: "Jerome holding the winner's cheque at the 234 AI Hackathon & Commerce Fusion 2026",
     caption: "Volunteer Financial Analyst with the UNILAG Energy Club.",
     span: "short",
   },

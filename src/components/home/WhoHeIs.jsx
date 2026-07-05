@@ -11,7 +11,7 @@ export function WhoHeIs() {
         <RevealOnScroll className="overflow-hidden">
           <img
             src={hospitalityRole}
-            alt="Professional portrait of Ofuowoicho Jerome Joseph"
+            alt="Jerome in a reception/dining setting during his hospitality leadership role"
             className="aspect-[3/2] w-full object-cover transition-transform duration-[400ms] ease-out hover:scale-[1.04]"
           />
         </RevealOnScroll>
